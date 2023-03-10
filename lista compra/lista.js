@@ -13,4 +13,16 @@ lista.innerHTML += `<li class="list-group-item"> ${produto.value} </li>`
 
 produto.value="";
 
+}else{
+alert('digite um produto')
+
+}
+
+function acharBotao() {
+    if(event.key === "Enter" && produtos.value != "")
+    {
+        adicionarProduto();
+    }
+} else{
+    alert("digite um produto");
 }

@@ -14,7 +14,7 @@
         <div class="col-4 offset-4">
             <h2>Lista de Compras</h2>
             <div class="d-flex">
-            <input type="text" id="produto" class="form-control me-3">
+            <input type="text" id="produto" class="form-control me-3" onkeydown="acharBotao">
             <button class="btn btn-primary" onclick="adicionarProduto()">Add</button>
             </div>
             <ul id="lista" class="list-group"></ul>
