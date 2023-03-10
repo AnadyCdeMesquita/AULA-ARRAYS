@@ -11,5 +11,6 @@ function adicionarProduto(){
 produtos.push(produto.value);
 lista.innerHTML += `<li class="list-group-item"> ${produto.value} </li>`
 
+produto.value="";
 
 }
